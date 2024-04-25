@@ -1,3 +1,4 @@
+require('dotenv').config()
 import { useContext, useEffect, useState } from "react"
 import { CartContext } from "../../lib/CartContext"
 import axios from "axios";
